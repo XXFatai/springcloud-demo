@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: user-service-dev
+  sleuth:
+    sampler:
+      probability: 1.0
 eureka:
   instance:
     prefer-ip-address: true
