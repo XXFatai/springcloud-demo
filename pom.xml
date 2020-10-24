@@ -10,7 +10,6 @@
         <module>hystrix-dashboard</module>
         <module>zuul-server</module>
         <module>config-server</module>
-        <module>zipkin-server</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
